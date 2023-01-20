@@ -1,0 +1,162 @@
+/* MOBILE */
+
+/*------------------SECTION 1-------------------------*/
+body {
+    color: #ffffff;
+}
+
+.mainpage {
+    height: 100vh;
+}
+
+.basket-animation {
+    height: 60vh;
+    width: 80vw;
+    margin-left:10vw;
+    margin-right:10vw;
+}
+
+.basketball {
+    height: 40vh;
+    width: 80vw;
+    margin-left:10vw;
+    margin-right:10vw;
+    text-align: center;
+}
+
+.basketball h6 {
+    margin-top: 0px;
+    margin-bottom: 5vh;
+    text-shadow: 1px 1px 2px;
+    text-align: center;
+    font-size: 45px;
+}
+
+.basketball h3 {
+    font-size:18px;
+}
+
+
+.basketball h4 {
+    font-size: 20px;
+}
+
+.basketball h5 {
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+    text-shadow: 1px 1px 2px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.basketball h5 a {
+    text-decoration:none;
+    outline: none !important;
+    color: white;
+    padding: 10px;
+}
+
+.basketball h5 a:hover {
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 25px;
+    color: #ffffff;
+}
+
+
+/*------------------SECTION 2-------------------------*/
+
+.Rulebook h5 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 5px;
+    text-shadow: 1px 1px 2px;
+}
+
+.card-1{
+    padding: 13px 12px;
+    border: 2px solid whitesmoke;
+    margin: 13px 12px;
+    box-shadow: inset 5px 5px 5px #ede2e2;
+    font-size: 15px;
+}
+
+li.gi{
+    list-style:circle;
+}
+
+
+
+
+
+
+/* LAPTOP */
+
+@media screen and (min-width: 1115px) {
+
+    .mainpage {
+        height: 90vh;
+    }
+
+    .basket-animation {
+        height: 100%;
+        width: 44vw;
+        margin: 1vw;
+        float: left;
+    }
+
+    .basketball {
+        height: 100%;
+        width: 44vw;
+        margin: 1vw;
+        text-align: center;
+        float: right;
+        padding-top: 1vh;
+    }
+
+    .basketball h6 {
+        margin-top: 0px;
+        margin-bottom: 5vh;
+        text-shadow: 1px 1px 2px;
+        text-align: left;
+        font-size: 100px;
+    }
+
+    .basketball h3 {
+        font-size:25px;
+    }
+
+    .basketball h4 {
+        font-size: 32px;
+    }
+
+    .basketball h5 {
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        margin-right: 4vw;
+        text-shadow: 1px 1px 2px;
+        text-align: center;
+        font-size: 42px;
+    }
+
+    .l { float: left; width:50%;}
+
+    .r { float: right;width:30%;}
+
+    .Rulebook h5 {
+        font-size: 80px;
+        text-align: center;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        text-shadow: 1px 1px 2px;
+    }
+
+    .card-1{
+        padding: 20px 20px;
+        border: 2px solid whitesmoke;
+        margin: 2vw 10vw;
+        box-shadow: inset 5px 5px 5px #ede2e2;
+        font-size: 25px;
+        margin-bottom: 5vh;
+    }
+
+}

@@ -1,0 +1,838 @@
+@import url(https://fonts.googleapis.com/css2?family=Monoton&family=Holtwood+One+SC);
+@import url(https://fonts.googleapis.com/css?family=Ultra);
+
+
+@media only screen and (max-width: 395px) {
+
+    div.navbar {margin-left:10vh;margin-right:13vh;}
+    div.college {font-size:10px;margin-left:10vh;margin-right:20vh;}
+    div.title h1 {font-size:45px; margin-bottom: 0px; font-family:"Monoton";}
+    div.title h3 {font-size:20px;}
+
+    div.lg2 {
+        height: 10vh;
+        width: 20vh;
+    }
+
+    div.lg1 {
+        height: 12vh;
+        width:12vh;
+    }
+
+    div.basket {
+        font-size:33px;
+    }
+
+
+
+    div.sponsors {
+        font-size:50px;
+        padding-top:10vh;
+        height:100vh;
+    }
+
+    div.section-spons {
+        margin-left:20vw;
+    }
+
+    li.card img {
+        height:100px;
+        width:100px;
+    }
+
+
+
+
+    div.lg3 {
+        position: absolute;
+        height: 10vh;
+        width: 10vh;
+        left:3vh;
+    }
+
+    div.foot {
+        font-size:40px;
+    }
+
+    div.footer {
+        height:29vh;
+        padding:5vh;
+    }
+
+    div.contact {
+        margin-left:10vh;
+        font-size:13px;
+        color:white;
+        width: 60vw;
+    }
+
+    div.venue {
+        margin-top:3vh;
+        font-size:15px;
+        color:white;
+        width: 80vw;
+    }
+
+    div.copy {
+        font-size:15px;
+        margin-left: 10vw;
+        margin-top: 25vh;
+    }
+
+    div.contact i {
+        font-size:13px;
+    }
+
+    div.data a{
+        font-size:15px;
+    }
+
+}
+
+
+@media only screen and (max-width: 500px) and (min-width:390px) {
+
+    div.lg3 {
+        position: absolute;
+        height: 10vh;
+        width: 10vh;
+        left:3vh;
+    }
+
+    div.college {
+        font-size:15px;
+        margin-left:12vh;
+        margin-right:20vh;
+    }
+
+    div.section-spons {
+        margin-left:25vw;
+    }
+
+    div.sponsors {
+        height:130vh;
+    }
+
+    li.card img {
+        height:150px;
+        width:150px;
+    }
+
+    div.foot {
+        font-size:40px;
+    }
+
+    div.basket {
+        font-size:33px;
+    }
+
+    div.footer {
+        height:30vh;
+        padding:5vh;
+    }
+
+    div.contact {
+        margin-left:10vh;
+        font-size:15px;
+        color:white;
+        width: 60vw;
+    }
+
+    div.contact i {
+        font-size:15px;
+    }
+
+    div.venue {
+        margin-top:3vh;
+        font-size:18px;
+        color:white;
+        width: 80vw;
+    }
+
+    div.copy {
+        font-size:18px;
+        margin-left: 10vw;
+        margin-top: 31vh;
+    }
+
+    div.lg2 {
+        height: 10vh;
+        width: 20vh;
+    }
+
+    div.lg1 {
+        height: 12vh;
+        width:12vh;
+    }
+
+}
+
+
+/*For Laptops*/
+@media only screen and (min-width: 1115px) {
+
+/* ------------------- HEADER -----------------------------------*/
+
+    body {
+        overflow-x:hidden;
+    }
+
+    div.lg1 {
+        position: absolute;
+        top: 0;
+        height: 20vh;
+        width: 20vh;
+        z-index: 15;
+        left:0;
+
+    }
+
+    div.lg2 {
+        position: absolute;
+        top: 0;
+        height: 18vh;
+        width: 35vh;
+        z-index: 15;
+        right:0;
+    }
+
+    div.navbar {
+        display:block;
+        position:absolute;
+        height:15vh;
+        width:100vw;
+        margin-bottom:10px;
+    }
+
+    div.navbar #menu {display:none;}
+
+    div.navbar .bmenu {display:block;}
+
+    .opt {
+         width:25vh;
+         text-align:center;
+         float:left;
+         margin-top:2vh;
+         padding:10px;
+         color:white;
+         font-size:20px;
+         text-decoration:none;
+         font-weight:bold;
+         margin-left:5vw;
+    }
+
+    .opt:hover {
+        background-color: rgba(255,255,255,0.5);
+        color: #192839;
+        border-radius: 25px;
+    }
+
+    div.college {
+        font-size:30px;
+        font-weight:bold;
+        color: #192839;
+        margin-left: 20vh;
+        margin-right:35vh;
+        text-align:center;
+        margin-top:2vh;
+    }
+
+/* ------------------- SECTION 1 -----------------------------------*/
+
+    div.title {top: 20%}
+    div.title h1 {font-size:200px; margin-bottom: 0px; font-family:"Monoton";font-weight:normal; margin-top:8vh;}
+    div.title h3 {font-size:50px;}
+    div.title h4 {font-size:40px;}
+
+
+/* ------------------- SECTION 2 -----------------------------------*/
+
+    div.events {
+        width: 100%;
+        height: 105vh;
+        margin: 0px;
+        float: left;
+
+    }
+
+    div.foot-A {
+        height: 100vh;
+        width: 50%;
+        font-size: 100px;
+        padding: 5px;
+    }
+
+    div.foot {
+        text-align: center;
+        height: 100vh;
+        width: 45%;
+        font-size: 100px;
+        padding-top: 70px;
+        vertical-align: middle;
+    }
+
+    div.basket-A {
+        height: 100vh;
+        width: 50%;
+        font-size: 100px;
+        padding: 5px;
+    }
+
+    div.basket {
+        text-align: center;
+        height: 100vh;
+        width: 45%;
+        font-size: 100px;
+        padding-top: 70px;
+        padding-left:30px;
+    }
+
+/* ------------------- SECTION 3 -----------------------------------*/
+
+    ul.card-wrapper1{
+        display: flex;
+        height: 10px;
+        width: 10px;
+        margin-left: 25%;
+        margin-top: 10px;
+        padding: 20px;
+        flex-direction:row;
+        justify-content:center;
+    }
+
+    li {
+        list-style: none;
+        margin: 15px;
+    }
+
+    li.card img{
+        height: 250px;
+        width: 250px;
+        border-radius: 50%;
+    }
+
+    div.sponsors {
+    height:100vh;
+    font-size:80px;
+    margin-top:10vh;
+    }
+
+    div.section-spons {
+    margin-top:10vh;
+    height:60vh;
+    }
+
+
+/* ------------------- SECTION 4 -----------------------------------*/
+
+    div.gallery {
+        height: 80vh;
+    }
+
+    div.g {
+        font-size:80px;
+    }
+
+    div.carousel{
+        width: 70vw;
+        height: 70vh;
+        margin: auto;
+        margin-top: 10px;
+        box-shadow: 0px 0px 3px grey;
+        position: relative;
+        overflow: hidden;
+        transition: 2s;
+        z-index: 10;
+    }
+
+    div.b1 {
+        height:40px;
+        width:30px;
+        position:absolute;
+        z-index:revert;
+        top:40%;
+    }
+
+    div.b2 {
+        height:40px;
+        width:30px;
+        position:absolute;
+        z-index:revert;
+        top:40%;
+    }
+
+
+
+/* ------------------- SECTION 5 -----------------------------------*/
+
+    div.contact {
+        width: 30vw;
+    }
+
+    div.venue {
+        width:40vw;
+    }
+
+    div.copy {
+        width:60vw;
+    }
+
+}
+
+
+/* For Mobiles*/
+/* ------------------- HEADER -----------------------------------*/
+
+    .lg1 {
+        position: absolute;
+        top: 0;
+        height: 20vh;
+        width: 20vh;
+        z-index: 15;
+        left:0;
+    }
+
+    .lg1 img{
+        height:100%;
+        width:100%;
+    }
+
+    .lg2 img{
+        height:100%;
+        width:100%;
+    }
+
+    .lg2 {
+        position: absolute;
+        top: 0;
+        height: 18vh;
+        width: 35vh;
+        z-index: 15;
+        right:0;
+    }
+
+    .navbar {
+        height:100%;
+        margin-left: 20vh;
+        margin-right: 20vh;
+        display: flex;
+        justify-content: center;
+        position: inherit;
+    }
+
+    .college {
+        font-size:20px;
+        font-weight:bold;
+        color: #192839;
+        margin-left: 20vh;
+        margin-right:35vh;
+        text-align:center;
+        margin-top:2vh;
+    }
+
+    #menu{
+        margin-top:2vh;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: .5s;
+        z-index: 20;
+    }
+
+    .menu-line1{
+        width: 100%;
+        height: 2px;
+        background: #fff;
+        transition: .6s;
+    }
+
+    .menu-line2{
+        width: 80%;
+        height: 2px;
+        margin-top: .7rem;
+        background: #fff;
+        transition: .6s;
+    }
+
+    .rotate{
+        transform: rotateZ(180deg)
+    }
+
+    .rotate1{
+        background: #212121;
+        transform: rotateZ(45deg);
+    }
+
+    .rotate2{
+        background: #212121;
+        width: 100%;
+        transform:  translate(0,-0.8rem) rotateZ(-45deg);
+    }
+
+    .nav-page1{
+        position: fixed;
+        top:0 ;
+        left: 0;
+        background: whitesmoke;
+        width: 60%;
+        height: 25vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #212121;
+        transform: translate(0,-100%);
+        transition: .5s;
+    }
+
+    .nav-page1 span{
+        padding: 2px;
+    }
+
+    .nav-page1 a {
+        text-decoration:none;
+        color: #192839;
+    }
+
+    .nav-page2{
+        position: fixed;
+        top:0 ;
+        left: 60%;
+        background: whitesmoke;
+        width: 40%;
+        height: 25vh;
+        transition: .8s;
+        transform: translate(0,-100%);
+    }
+
+    .transform{
+        transform: translate(0,0);
+        z-index: 16;
+    }
+
+    .bmenu {
+        display:none;
+    }
+
+
+
+/* ------------------- SECTION 1 -----------------------------------*/
+
+    body {
+        margin:0px;
+        padding:0;
+        background-color: #000000;
+        /*background-image: url("1288325.webp");*/
+        font-family: -apple-system, BlinkMacSystemFont,
+        'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+        'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    #bg{
+        position:fixed;
+        height: -webkit-fill-available;
+        background: cover;
+        background: linear-gradient(145deg, #1ab4e2 -40%, #192839 90%);
+        width: auto;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        z-index: -2;
+    }
+
+    section {
+        overflow: hidden;
+    }
+
+    .header {
+        height:20vh;
+    }
+
+    .title {
+        position: absolute;
+        padding: 0px;
+        top: 30%;
+        float:center;
+        width: auto;
+    }
+
+    .title h1 {
+        background: -webkit-linear-gradient(180deg, #ffffff, #ffffff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family:'Monoton';
+        font-size: 60px;
+        text-align: center;
+        margin-bottom: 0px;
+        padding-bottom:0px
+        margin-top:5px;
+    }
+
+    .title h3 {
+        color: #ffffff;
+        font-size: 30px;
+        text-align: center;
+        float:right;
+        margin-right:0%;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    .title h4 {
+        color: #ffffff;
+        font-size: 20px;
+        text-align: center;
+        float:center;
+        margin-right:0%;
+        margin-bottom: 0px;
+        margin-top: 10vh;
+        text-shadow: 1px 1px 2px;
+    }
+
+    #main {
+        height: 100vh;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+
+/* ------------------- SECTION 2 -----------------------------------*/
+
+    .events {
+        height: 100vh;
+        width: 100%;
+    }
+
+    .foot-A {
+        text-align: center;
+        height: 50vh;
+        width: 100%;
+        font-size: 80px;
+        margin-top:5px;
+        padding:10px;
+        float:left;
+        margin:0px;
+    }
+
+    .foot {
+        color: #ffffff;
+        font-family: 'Holtwood One SC';
+        text-align: center;
+        height: 26vh;
+        width: 100%;
+        font-size: 60px;
+        padding: 10px;
+        float:left;
+        margin:0px;
+    }
+
+    .basket-A {
+        height: 50vh;
+        width: 100%;
+        font-size: 80px;
+        padding-top: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        float:right;
+        margin:0px;
+    }
+
+    .basket {
+        color: #ffffff;
+        font-family: 'Holtwood One SC';
+        text-align: center;
+        height: 26vh;
+        width: 100%;
+        font-size: 60px;
+        padding:10px;
+        float:left;
+        margin:0px;
+    }
+
+    svg {
+        height: 100%;
+        width: 100%;
+        position: relative;
+    }
+
+    .data {
+        margin:auto;
+        font-family: 'Arial';
+        width:50%;
+        padding:10px;
+        color:white;
+        font-size:30px;
+        text-decoration:none;
+        font-weight:bold;
+        text-shadow: 1px 1px 2px;
+    }
+
+    .data a {
+        padding:10px;
+        color:white;
+        text-decoration:none;
+    }
+
+    .data a:hover{
+        background-color:rgba(255,255,255,0.5);
+        border-radius:25px;
+        color: #192839;
+    }
+
+
+
+
+/* ------------------- SECTION 3 -----------------------------------*/
+
+    .sponsors {
+        height:150vh;
+        font-size:50px;
+        color:#ffffff;
+        text-align:center;
+        font-family:'Holtwood One SC';
+    }
+
+    .section-spons{
+        height:80%;
+        font-size: 40px;
+        margin-left: 50px;
+        margin-top: 0px;
+        margin-left:35vw;
+        margin-right: 30vh;
+        text-shadow: 1px 1px 2px;
+        justify-content: center;
+    }
+
+    .card-wrapper1{
+        display: flex;
+        height: 80%;
+        width: 10px;
+        margin-top: 5vh;
+        padding: 20px;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    li {
+        list-style: none;
+        margin: 15px;
+    }
+
+    .card img{
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+    }
+
+
+
+
+/* ------------------- SECTION 4 -----------------------------------*/
+
+    img {
+      width: 800px;
+      height: 500px;
+    }
+
+    .g {
+        color:white;
+        text-align:center;
+        margin-bottom:5vh;
+        font-family:'Holtwood One SC';
+        font-size: 50px;
+    }
+
+    .gallery {
+        height:60vh;
+    }
+
+    .carousel {
+        width: 70vw;
+        height:30vh;
+        margin: auto;
+        margin-top: 10%;
+        box-shadow: 0px 0px 3px grey;
+        position: relative;
+        overflow: hidden;
+        transition: 2s;
+    }
+
+    .slide{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+
+    }
+
+    .nav{
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .nav button{
+        font-size: 20px;
+        padding: 5px;
+        background: rgba(76, 175, 80, 0.1);
+    }
+
+    .nav button:hover{
+        color:white;
+    }
+
+    .lg3 {
+        position: absolute;
+        height: 20vh;
+        width: 20vh;
+        left:3vh;
+    }
+
+
+
+/* ------------------- SECTION 5 -----------------------------------*/
+
+    .footer {
+        height:25vh;
+        padding:5vh;
+        padding-top:5vh;
+        background-color: rgba(0,0,0,0.3);
+    }
+
+    .contact {
+        margin-left:20vh;
+        font-size:20px;
+        color:white;
+        width: 40vw;
+        float:left;
+    }
+
+    .venue {
+        font-size:20px;
+        color:white;
+        width: 30vw;
+        float:right;
+        text-align:left;
+    }
+
+    .copy {
+        font-size:20px;
+        color:white;
+        width: 60vw;
+        margin-top: 22vh;
+        margin-left: 20vw;
+        text-align: -webkit-center;
+        margin-right: 20vw;
+        height: 4vh;
+    }
+
+    .lg3 img {
+        height:100%;
+        width:100%;
+    }
+
+    .contact i {
+        font-size:25px;
+    }
